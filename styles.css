@@ -1,0 +1,123 @@
+@font-face {
+    font-family: simvoni;
+    src: url(/fonts/Simvoni-d9vV6.otf);
+}
+@font-face {
+    font-family: simvoni-bold;
+    src: url(/fonts/SimvoniBold-w1dOn.otf);
+}
+@font-face {
+    font-family: simvoni-bold-italic;
+    src: url(/fonts/SimvoniBoldItalic-7BXvl.otf);
+}
+@font-face {
+    font-family: simvoni-italic;
+    src: url(/fonts/SimvoniItalic-mLVOx.otf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+/*background: white;
+    background-image: url(/images/vinyl-record.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: top;
+    background-size: 100%;
+    background-repeat: no-repeat;*/
+}
+h1 {
+    color: black;
+    background: rgba(211, 211, 211, 0.75);
+    padding: 15px;
+    border-radius: 2px;
+    font-family: simvoni-bold;
+    text-transform: uppercase;
+    font-size: 25;
+    text-align: center;
+}
+h2 {
+    color: black;
+    background: rgba(128, 128, 128, 0.5);
+    padding: 5px;
+    border-radius: 2px;
+    font-family: simvoni-bold;
+    text-transform: uppercase;
+    font-size: 20;
+    text-align: center;
+}
+main {
+    color: black;
+    border-radius: 2px;
+    font-family: simvoni;
+    font-size: 16;
+}
+article {
+    background: rgba(211, 211, 211, 0.75);
+    margin: 5px;
+    border-radius: 2px;
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+section {
+    background: rgba(211, 211, 211, 0.75);
+    margin: 5px;
+    border-radius: 2px;
+    width: 77%;
+    float: left;
+    padding: 10px;
+}
+aside {
+    background: rgba(211, 211, 211, 0.75);
+    border-radius: 2px;
+    width: 20%;
+    float: right;
+    margin: 5px;
+    padding: 10px;
+}
+footer {
+    background: grey;
+    font-family: simvoni;
+    font-size: 14;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: grey;
+    padding: 0px;
+    margin: 0;
+    font-family: simvoni-bold;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(61, 61, 61)
+}
+.navbar li {
+    float: left;
+}
+.logo {
+    height: 50px;
+    text-align: center;
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        width:100%;
+    }
+    .navbar li{
+    }
+}
